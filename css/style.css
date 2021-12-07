@@ -1,6 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 *{
     margin: 0;
-    padding:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+}
+
+.ml{
+    margin-left: -80px;
+}
+
+.mr{
+    margin-right: -50px;
 }
 
 .img-fluid2{
@@ -79,9 +94,6 @@
 }
 
 @media only screen and (max-width: 767px){
-    .navbar-nav.ml-auto{
-        background: rgba(0, 0, 0, 0.5)
-    }
     .navbar-toggler{
         padding: 1px 5px;
         font-size: 18px;
@@ -89,3 +101,10 @@
     }
 }
 
+.container span{
+    color:#4bcffa;
+}
+
+.margin-mt{
+    margin-top: 130px;
+}
